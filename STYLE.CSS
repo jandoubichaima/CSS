@@ -1,0 +1,85 @@
+
+BODY{ font-family:Lucida Console ;
+font-size: 20PX;
+background-color: bisque;}
+.ul1{ 
+list-style-type: none;
+background-color: black;
+margin: 0;
+padding: 0;
+overflow: hidden;
+position: fixed;
+top: 1px  ;
+width:100%;
+height: 10% ;}
+.ul1>li {
+    float: left;
+  }
+ .ul1 li a {
+  
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: rgb(158, 80, 80);
+  }
+  .active {
+    background-color: #dfbdd9;
+  }
+  .header{text-align: center;
+text-shadow: 2px 2px  blueviolet;}
+  .in {float: top right; 
+    }
+  #form >input [type="text"]{
+    width: 130px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+   
+    background-color: white;
+    background-position: 10px 10px; 
+    padding: 12px 20px 12px 40px;
+    transition: width 0.4s ease-in-out;
+  }
+  #form>input[type=text]:focus {
+    width: 100%;
+  }
+  #form2{ margin-left: 340px;
+padding: 30PX;}
+  #form2>input {
+    width: 50%;
+    margin: 15PX;
+    padding: 20PX;
+    border: 2px double rgb(170, 75, 75);
+    border-radius: 6px;}
+    Textarea{ 
+        margin: 15PX;
+        border: 2px double rgb(88, 9, 9);
+        border-radius: 6px;}
+    
+        select {
+            width: 50%;
+            padding: 16px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #f1f1f1;
+        }
+     input[type="submit"], input[type="reset"] {
+            background-color: #4caf4c;
+            color: white;
+            padding: 16px 32px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+          table{ border:3PX solid ;
+        width :100%;}
+        td{text-align: center;4
+        margin-bottom: 10F0PX;
+          margin-top:100PX;}
+        tr:hover {background-color: rgb(230, 169, 199);}
+
+          .liste2{    
+
+          }
